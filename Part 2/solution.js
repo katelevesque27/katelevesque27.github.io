@@ -178,7 +178,7 @@ socialMediaAvg.then(function(data) {
     svg.append('g')
        .call(d3.axisLeft(y))
        .attr('transform', `translate(${margin.left},0)`);
-    
+     
     // Add x-axis label
     svg.append('text')
         .attr('x', width / 2)
